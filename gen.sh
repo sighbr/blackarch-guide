@@ -1,5 +1,5 @@
 #!/bin/sh
-
+test
 TEXFILE="latex/guide.tex"
 HTMLFILE="`echo ${TEXFILE} | cut -d '/' -f 2 | cut -d '.' -f 1`.html"
 
